@@ -1,0 +1,8 @@
+{
+	"data": [
+		{
+			"title" : "Snake: C++/SDL2",
+			"desc": "Snake game made in a custom game engine based on C++ and SDL2. The purpose was to practice using SDL2. I made all of the art and sound effects"
+		}
+	]
+}
