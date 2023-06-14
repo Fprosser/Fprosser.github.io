@@ -1,8 +1,20 @@
 {
 	"data": [
 		{
-			"title" : "Snake: C++/SDL2",
-			"desc": "Snake game made in a custom game engine based on C++ and SDL2. The purpose was to practice using SDL2. I made all of the art and sound effects"
+			"title" : "Snake",
+            "subtitle": "C++/SDL2",
+			"desc": "Snake game made in a custom game engine based on C++ and SDL2. The purpose was to practice using SDL2. I made all of the art and sound effects",
+            "repo": "https://github.com/Fprosser/snake_game",
+            "repo_name": "Github",
+            "pic":"https://i.imgur.com/pq8ZTta.png"
+		},
+        {
+			"title" : "Onboarding",
+            "subtitle": "Html/PHP/CSS/REST",
+			"desc": "An onboarding form I made for a local startup that integrates with their ERP platform through a REST Api integration",
+            "repo": "",
+            "repo_name": "",
+            "pic":"https://i.imgur.com/olLW1Md.png"
 		}
 	]
 }
