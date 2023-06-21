@@ -16,6 +16,14 @@
 //             "repo": "",
 //             "repo_name": "",
 //             "pic":"https://i.imgur.com/olLW1Md.png"
+// 		},
+//         {
+// 			"title" : "3D Pacman",
+//             "subtitle": "C++/OpenGL",
+// 			"desc": "A proof of concept for a pacman game in a 3 dimensional setting. This was made as a final project for my 3D graphics class",
+//             "repo": "",
+//             "repo_name": "",
+//             "pic":"https://i.imgur.com/rtG7bSB.png"
 // 		}
 // 	]
 // }
@@ -33,10 +41,10 @@ async function loadProjects() {
     const list = document.getElementById("list");
     projectData.data.forEach((value) =>{
         list.innerHTML +=`
-        <div class = "col-sm text-dark bg-gray">
+        <div class = "col-sm text-dark bg-gray" style = "padding-bottom: 10px;">
             <div class="card" style = "width: 25rem">
             <img class="card-img-top shadow-sm" style = " height: 325px; width: 398px; overflow: hidden; border: 5px solid black;" src="${value.pic}" alt="Card image cap">
-            <div class="card-body">
+            <div class="card-body py-2">
                 <h5 class="card-title">${value.title}</h5>
                 <h6 class="card-subtitle mb-2 text-muted">${value.subtitle}</h6>
                 <p class="card-text">${value.desc}</p>

@@ -15,6 +15,14 @@
             "repo": "",
             "repo_name": "",
             "pic":"https://i.imgur.com/olLW1Md.png"
+		},
+        {
+			"title" : "3D Pacman",
+            "subtitle": "C++/OpenGL",
+			"desc": "A proof of concept for a pacman game in a 3 dimensional setting. This was made as a final project for my 3D graphics class",
+            "repo": "",
+            "repo_name": "",
+            "pic":"https://i.imgur.com/rtG7bSB.png"
 		}
 	]
 }
